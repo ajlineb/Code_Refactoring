@@ -1,0 +1,163 @@
+* {
+    /*determins the padding and margins of the entire page and overall look*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /*Determins the background color of the body*/
+    background-color: #d9dcd6;
+}
+
+/* made these into header elements instead of a class header*/
+header {
+    /*header element will have the following font type, background color, font color and padding applied*/
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    /*header and h1 elements will display inline-block style with a font of 48px*/
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 #seo {
+    /*determins the color of the seo in Horiseon*/
+    color: #d9dcd6;
+}
+
+header div {
+    /*sets properties for the links in the header*/
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header div ul {
+    /*sets the list style of the top right links*/
+    list-style-type: none;
+}
+
+header div ul li {
+    /*top right links are inline-block and left margin of 25px*/
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    /*top right links will have custom coloring and no hyperlink text decoration*/
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    /*all paragraphs will have this font size*/
+    font-size: 16px;
+}
+
+#hero {
+    /*large background image*/
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*put the content class above the float-left and float-right since they are within the content*/
+.content {
+    /*determins the size of the area where the main information will be held*/
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*moved this class here because it makes more sense here under content also 
+turned this into .content div to get rid of the extra classes doing the same thing*/
+.content div {
+    /*characteristics of the first tab of information*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*moved here for linear progression and got rid of the extra classes and formed this one*/
+.content div img {
+    /*first tab image characteristics*/
+    max-height: 200px;
+}
+
+/*moved here for linear progression and got rid of the extra classes and formed this one*/
+.content div h2 {
+    /*characteristics of the h2 text information*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-left {
+    /*used on the body first body image and third body image*/
+    float: left;
+    margin-right: 25px;
+}
+
+#float-right {
+    /*used on the second body image*/
+    float: right;
+    margin-left: 25px;
+}
+
+.benefits {
+    /*Right panel characteristics*/
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*removed the several classes that could have been made into the one below*/
+.benefits div{
+    /*determines the margin of the right side infromation*/
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*removed the several classes that could have been made into the one below*/
+.benefits div h3{
+    /*determines margin and alignment for the h3 text of the right side information*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*removed the several classes that could have been made into the one below*/
+.benefits div img {
+    /*right panel image characteristics*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*turned the footer class into a footer element*/
+footer {
+    /*characteristics about the footer*/
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    /*characteristics about the text in the h2*/
+    font-size: 20px;
+}
