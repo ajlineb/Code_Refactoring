@@ -71,7 +71,7 @@ p {
     background-position: center;
 }
 /*put the content class above the float-left and float-right since they are within the content*/
-.content {
+main {
     /*determins the size of the area where the main information will be held*/
     width: 75%;
     display: inline-block;
@@ -80,7 +80,7 @@ p {
 
 /*moved this class here because it makes more sense here under content also 
 turned this into .content div to get rid of the extra classes doing the same thing*/
-.content div {
+main div {
     /*characteristics of the first tab of information*/
     margin-bottom: 20px;
     padding: 50px;
@@ -91,13 +91,13 @@ turned this into .content div to get rid of the extra classes doing the same thi
 }
 
 /*moved here for linear progression and got rid of the extra classes and formed this one*/
-.content div img {
+main div img {
     /*first tab image characteristics*/
     max-height: 200px;
 }
 
 /*moved here for linear progression and got rid of the extra classes and formed this one*/
-.content div h2 {
+main div h2 {
     /*characteristics of the h2 text information*/
     margin-bottom: 20px;
     font-size: 36px;
