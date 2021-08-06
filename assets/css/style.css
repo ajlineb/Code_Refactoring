@@ -139,6 +139,12 @@ footer h2 {
     max-width: 150px;
 }
 
+.float-left {
+    /*used on the body first body image and third body image*/
+    float: left;
+    margin-right: 25px;
+}
+
 #seo {
     /*determins the color of the seo in Horiseon*/
     color: #d9dcd6;
@@ -154,11 +160,7 @@ footer h2 {
     background-position: center;
 }
 
-.float-left {
-    /*used on the body first body image and third body image*/
-    float: left;
-    margin-right: 25px;
-}
+
 
 #float-right {
     /*used on the second body image*/
