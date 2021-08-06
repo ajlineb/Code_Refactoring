@@ -25,10 +25,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 #seo {
-    /*determins the color of the seo in Horiseon*/
-    color: #d9dcd6;
-}
+
 
 header div {
     /*sets properties for the links in the header*/
@@ -50,26 +47,6 @@ header div ul li {
     margin-left: 25px;
 }
 
-a {
-    /*top right links will have custom coloring and no hyperlink text decoration*/
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    /*all paragraphs will have this font size*/
-    font-size: 16px;
-}
-
-#hero {
-    /*large background image*/
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
 /*put the content class above the float-left and float-right since they are within the content*/
 main {
     /*determins the size of the area where the main information will be held*/
@@ -103,16 +80,29 @@ main div h2 {
     font-size: 36px;
 }
 
-.float-left {
-    /*used on the body first body image and third body image*/
-    float: left;
-    margin-right: 25px;
+a {
+    /*top right links will have custom coloring and no hyperlink text decoration*/
+    color: #ffffff;
+    text-decoration: none;
 }
 
-#float-right {
-    /*used on the second body image*/
-    float: right;
-    margin-left: 25px;
+p {
+    /*all paragraphs will have this font size*/
+    font-size: 16px;
+}
+
+/*turned the footer class into a footer element*/
+footer {
+    /*characteristics about the footer*/
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    /*characteristics about the text in the h2*/
+    font-size: 20px;
 }
 
 .benefits {
@@ -148,16 +138,30 @@ main div h2 {
     margin: 10px auto;
     max-width: 150px;
 }
-/*turned the footer class into a footer element*/
-footer {
-    /*characteristics about the footer*/
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+
+#seo {
+    /*determins the color of the seo in Horiseon*/
+    color: #d9dcd6;
 }
 
-footer h2 {
-    /*characteristics about the text in the h2*/
-    font-size: 20px;
+#hero {
+    /*large background image*/
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    /*used on the body first body image and third body image*/
+    float: left;
+    margin-right: 25px;
+}
+
+#float-right {
+    /*used on the second body image*/
+    float: right;
+    margin-left: 25px;
 }
