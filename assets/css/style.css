@@ -25,8 +25,6 @@ header h1 {
     font-size: 48px;
 }
 
-
-
 header div {
     /*sets properties for the links in the header*/
     padding-top: 15px;
@@ -159,8 +157,6 @@ footer h2 {
     background-size: cover;
     background-position: center;
 }
-
-
 
 #float-right {
     /*used on the second body image*/
