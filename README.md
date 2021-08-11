@@ -7,6 +7,7 @@ Gave the website an infomative title.
 Setup the CSS stylesheet so that it flows smoothly and orderly.
 Images now have alt attributes to describe them for easier access to the website.
 Added viewport meta tag for greater accessibility.
+Added targets to the links in the header.
 
 ### URLs
 Github repository: https://github.com/ajlineb/HomeWork1
