@@ -55,7 +55,7 @@ main {
 
 /*moved this class here because it makes more sense here under content also 
 turned this into .content div to get rid of the extra classes doing the same thing*/
-main div {
+main section {
     /*characteristics of the first tab of information*/
     margin-bottom: 20px;
     padding: 50px;
@@ -66,13 +66,13 @@ main div {
 }
 
 /*moved here for linear progression and got rid of the extra classes and formed this one*/
-main div img {
+main section img {
     /*first tab image characteristics*/
     max-height: 200px;
 }
 
 /*moved here for linear progression and got rid of the extra classes and formed this one*/
-main div h2 {
+main section h2 {
     /*characteristics of the h2 text information*/
     margin-bottom: 20px;
     font-size: 36px;
@@ -116,21 +116,21 @@ footer h2 {
 }
 
 /*removed the several classes that could have been made into the one below*/
-.benefits div{
+.benefits section{
     /*determines the margin of the right side infromation*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /*removed the several classes that could have been made into the one below*/
-.benefits div h3{
+.benefits section h3{
     /*determines margin and alignment for the h3 text of the right side information*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 /*removed the several classes that could have been made into the one below*/
-.benefits div img {
+.benefits section img {
     /*right panel image characteristics*/
     display: block;
     margin: 10px auto;
